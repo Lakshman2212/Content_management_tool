@@ -1,53 +1,43 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f2f2f2;
+    background-color: #fffefe;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #0d80c8;
     padding: 1rem;
     text-align: center;
     color: white;
     font-weight: bold;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-}
-
-.input-section {
-    flex: 0 0 45%;  /* takes up 45% of the container width */
-    padding: 1rem;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-}
-
+.input-section,
 .output-section {
-    flex: 0 0 50%;  /* takes up 50% of the container width */
+    width: 45%; /* Set the width for both input and output sections */
+    margin: 0 auto; /* Center the sections on the page */
     padding: 1rem;
     background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(243, 238, 238, 0.2);
     border-radius: 8px;
+    margin-bottom: 1rem; /* Add margin between input and output sections */
 }
 
-.input-section div, .output-section div {
+.input-section div,
+.output-section div {
     margin-bottom: 1rem;
 }
 
 label {
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     font-weight: bold;
 }
 
 button {
     padding: 0.5rem 1rem;
-    background-color: #4CAF50;
+    background-color: #1f92f7;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -56,7 +46,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0f8bd3;
 }
 
 h2 {
@@ -67,9 +57,9 @@ h2 {
 }
 
 .uploaded-content {
-    padding: 3px;
-    max-width: 80%;
-    height: auto;
+    padding: 15px;
+    max-width: 120%;
+    height: 50;
     display: block;
     margin-left: auto;
     margin-right: auto;
